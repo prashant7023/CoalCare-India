@@ -1,7 +1,7 @@
 .carousel {
   position: relative;
-  width: 100vw; /* Full viewport width */
-  height: 500px; /* You can adjust this for the desired rectangular look */
+  width: 95vw; /* Full viewport width */
+  height: 450px; /* You can adjust this for the desired rectangular look */
   margin: 0 auto;
   overflow: hidden;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);

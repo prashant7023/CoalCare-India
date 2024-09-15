@@ -5,15 +5,19 @@ import Carousel from './components/Corousel';
 import MinistryOfCoal from './components/Ministryofcoal';
 import Footer from './components/Footer';
 import KeyFeatures from './components/KeyFeatures';
+import Hero from './components/Hero';
+import GreenFuture from './components/GreenFuture';
 
 function App() {
   return (
     <div>
-      <Header />
       <Navbar />
       <Carousel />
+      <Hero />
       <MinistryOfCoal />
+      <GreenFuture />
       <KeyFeatures />
+      <Header />
       <Footer />
     </div>
   );
