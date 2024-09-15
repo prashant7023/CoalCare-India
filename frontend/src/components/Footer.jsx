@@ -89,7 +89,6 @@ function Footer() {
                             <a href="#" class="hover:text-white">Terms of Use</a>
                         </div>
 
-
                     </div>
                 </div>
             </div>
