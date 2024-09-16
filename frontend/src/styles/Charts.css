@@ -16,4 +16,8 @@
     flex-basis: 100%; /* The line chart will take the full width in the second row */
     max-width: none; /* Remove the width limit for the line chart */
   }
-  
+
+.chart{
+  border: 1px solid #1e1e1e;
+  border-radius: 20px;
+}

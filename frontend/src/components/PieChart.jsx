@@ -6,12 +6,19 @@ ChartJS.register(ArcElement, Tooltip, Legend);
 
 const PieChart = () => {
   const data = {
-    labels: ['Choritand Tiliaya', 'Jogeshwar & Khas Jogeshwar', 'Rabodih OCP', 'Rohne', 'Urtan North', 'North of Arkhapal Srirampur'],
+    labels: ['Mining Method', 'Transportation', 'Energy Usage', 'Stripping Ratio', 'Land Use', 'Miscellaneous'],
     datasets: [
       {
-        label: 'Top 6 Polluted Cities AQI Level',
-        data: [524, 450, 483, 435, 565, 492],
-        backgroundColor: ['yellow', 'green', 'red', 'blue', 'purple', 'orange'],
+        label: 'Carbon Footprint Factors',
+        data: [40, 20, 15, 10, 10, 5],
+        backgroundColor: [
+          '#ff9999',
+          '#66b3ff',
+          '#99ff99',
+          '#ffcc99',
+          '#c2c2f0',
+          '#ffb3e6'
+        ],
       },
     ],
   };
@@ -24,12 +31,13 @@ const PieChart = () => {
       },
       title: {
         display: true,
-        text: 'Top 6 Polluted Cities AQI Level',
+        text: 'Factors Affecting Carbon Footprint',
       },
     },
   };
 
-  return <Pie data={data} options={options} />;
+  return (
+  <Pie className="flex justify-center items-center w-full h-full bg-white border-2 border-gray-300 rounded-xl shadow-lg" data={data} options={options} />);
 };
 
 export default PieChart;

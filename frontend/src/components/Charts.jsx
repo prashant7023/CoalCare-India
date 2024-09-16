@@ -10,13 +10,13 @@ function Charts() {
         <div>
             <h1 className="text-center text-gray-800  text-4xl font-bold mb-5">Coal Mines of India</h1>
             <div className="charts-container">
-                <LineChart className="Line" />
-                <PieChart className="Pie" />
-                <BarChart className="Bar" />
+                <LineChart className="Line chart flex bg-center bg-white border-2 border-gray-300 rounded-xl shadow-lg none" />
+                <PieChart className="Pie chart" />
+                <BarChart className="Bar chart" />
             </div>
         </div>
     );
 }
 
 
-export default Charts
+export default Charts;
