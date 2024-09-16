@@ -26,8 +26,8 @@ function App() {
           {/* Home Page Route */}
           <Route path="/" element={
             <>
-              <Hero />
               <Carousel />
+              <Hero />
               <Charts />
               <MinistryOfCoal />
               <GreenFuture />
@@ -39,11 +39,10 @@ function App() {
           <Route path="/carbon-footprint" element={<CarbonFootprint />} />
         </Routes>
 
-        {/* Footer */}
-        <Footer />
-
         {/* Optional Header Component - Ensure its placement */}
         <Header />
+        {/* Footer */}
+        <Footer />
       </div>
     </Router>
   );

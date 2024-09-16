@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -14,15 +15,15 @@ const Hero = () => {
           Start tracking your emissions and discover innovative solutions to reduce your impact on the environment.
         </p>
         <div className="mt-6">
-          <button className="mr-4 px-6 py-3 bg-green-600 text-white font-bold rounded hover:bg-green-500">
+          <Link to='carbon-footprint' className="mr-4 px-6 py-3 bg-green-600 text-white font-bold rounded hover:bg-green-500">
             Calculate Now
-          </button>
-          <button className="mr-4 px-6 py-3 bg-gray-800 text-white font-bold rounded hover:bg-gray-700">
+          </Link>
+          <Link className="mr-4 px-6 py-3 bg-gray-800 text-white font-bold rounded hover:bg-gray-700">
             Explore Solutions
-          </button>
-          <button className="px-6 py-3 bg-gray-800 text-white font-bold rounded hover:bg-gray-700">
+          </Link>
+          <Link className="px-6 py-3 bg-gray-800 text-white font-bold rounded hover:bg-gray-700">
             Learn More
-          </button>
+          </Link>
         </div>
       </div>
 

@@ -8,7 +8,7 @@ function Footer() {
 
                 {/* <!-- Left Section: Carbon Footer --> */}
                 <div>
-                    <h3 class="text-2xl font-bold">CARBON</h3>
+                    <h3 class="text-2xl font-bold">CoalCare India</h3>
                     <p class="mt-2 text-gray-300 max-w-sm">
                         We are dedicated to providing innovative solutions for reducing carbon emissions and promoting sustainability. Join us in our mission to create a greener future.
                     </p>
@@ -46,10 +46,7 @@ function Footer() {
                 <div class="w-full max-w-md">
                     <h3 class="text-xl font-bold">Query</h3>
                     <p class="text-gray-400 mt-1">Future details</p>
-                    <div class="flex mt-4">
-                        <input type="text" placeholder="Enter your Query" class="bg-gray-800 p-3 w-full rounded-l-lg focus:outline-none focus:ring-2 focus:ring-teal-600" />
-                        <button class="bg-teal-600 p-3 rounded-r-lg text-white hover:bg-teal-500">Submit</button>
-                    </div>
+                   
                     {/* <!-- Social Icons --> */}
                     <div class="flex space-x-4 mt-6">
                         <a href="#" class="bg-teal-600 p-2 rounded-full">
@@ -84,9 +81,6 @@ function Footer() {
                         <div class="text-gray-400 flex flex-wrap space-x-6 text-sm">
                             <a href="#" class="hover:text-white">About Us</a>
                             <a href="#" class="hover:text-white">Contact</a>
-                            <a href="#" class="hover:text-white">Privacy Policy</a>
-                            <a href="#" class="hover:text-white">Sitemap</a>
-                            <a href="#" class="hover:text-white">Terms of Use</a>
                         </div>
 
                     </div>
