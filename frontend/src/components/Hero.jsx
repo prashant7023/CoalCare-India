@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <div className="bg-white flex items-center justify-between p-10">
+    <div className="bg-gray-100 flex items-center justify-between p-10">
       {/* Left Side: Text Content */}
       <div className="max-w-lg">
         <h1 className="text-4xl font-bold text-gray-800 leading-tight">

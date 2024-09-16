@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './App.css';
 import Header from './components/Header';
 import Navbar from './components/Navbar';
 import Carousel from './components/Corousel';
@@ -7,28 +8,24 @@ import Footer from './components/Footer';
 import KeyFeatures from './components/KeyFeatures';
 import Hero from './components/Hero';
 import GreenFuture from './components/GreenFuture';
-import BarChart from './components/BarChart'; // Importing BarChart
-import { UserData } from './components/Data'; // Importing the Data.js file
+import Charts from './components/Charts';
+
+
+// import { UserData } from './components/Data'; // Importing the Data.js file
 
 function App() {
-  const [userData, setUserData] = useState({
-    labels: UserData.map((data) => data.year),
-    datasets: [{
-      label: 'User Gained',
-      data: UserData.map((data) => data.userGain),
-    }]
-  });
+
 
   return (
     <div>
       <Navbar />
       <Carousel />
       <Hero />
+      <Charts  />
       <MinistryOfCoal />
       <GreenFuture />
       <KeyFeatures />
       <Header />
-      <BarChart chartData={userData} /> {/* Adding the BarChart component */}
       <Footer />
     </div>
   );
