@@ -12,7 +12,7 @@ function Navbar() {
       <ul className="flex space-x-8">
         <li><Link to="/" className="text-black hover:text-blue-500">Home</Link></li>
         <li><Link to="/carbon-footprint" className="text-black hover:text-blue-500">Carbon Footprint</Link></li>
-        <li><Link to="/statistics" className="text-black hover:text-blue-500">Solution</Link></li>
+        <li><Link to="/Solution" className="text-black hover:text-blue-500">Solution</Link></li>
         <li><Link to="/sustainability" className="text-black hover:text-blue-500">Contact Us</Link></li>
         <li><Link to="/more" className="text-black hover:text-blue-500">About Us</Link></li>
       </ul>

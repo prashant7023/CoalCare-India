@@ -13,6 +13,7 @@ import Hero from './components/Hero';
 import GreenFuture from './components/GreenFuture';
 import Charts from './components/Charts';
 import CarbonFootprint from './components/CarbonFootprint'; // Importing CarbonFootprint component
+import Solution from './components/Solution'; // Importing Solution component
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
           
           {/* Carbon Footprint Page Route */}
           <Route path="/carbon-footprint" element={<CarbonFootprint />} />
+          <Route path="/Solution" element={<Solution />} />
         </Routes>
 
         {/* Optional Header Component - Ensure its placement */}
