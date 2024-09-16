@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; 
 
 function Navbar() {
   return (
@@ -8,7 +9,7 @@ function Navbar() {
       </div>
       <ul className="flex space-x-8">
         <li><a href="/" className="text-black hover:text-blue-500">Home</a></li>
-        <li><a href="/carbon-footprint" className="text-black hover:text-blue-500">Carbon Footprint</a></li>
+        <li><Link to="/carbon-footprint" className="text-black hover:text-blue-500">Carbon Footprint</Link></li>
         <li><a href="/statistics" className="text-black hover:text-blue-500">Solution</a></li>
         <li><a href="/sustainability" className="text-black hover:text-blue-500">Contact Us</a></li>
         <li><a href="/more" className="text-black hover:text-blue-500">About Us</a></li>
