@@ -9,7 +9,8 @@ Carbon Neutrality Pathways: Explore emission reduction strategies such as adopti
 Carbon Credit Calculation: Estimate potential carbon credits based on the current market rate of carbon credits.
 Data Visualization: Emissions data is presented visually through charts and graphs to track emission trends and reduction strategies.
 Technology Stack
-Backend: Python (Django/Flask)
-Frontend: HTML, CSS, JavaScript
-Database: PostgreSQL (or specify another database)
+Backend: Node.Js 
+Frontend: React.Js + Tailwind
+Database: Firebase (or specify another database)
 APIs: Integrated with APIs for emission factor data (if applicable)
+
