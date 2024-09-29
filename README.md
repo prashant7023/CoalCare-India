@@ -1,4 +1,4 @@
-# carbon-tracker-sih2024
+# carbonfootprint-tracker-sih2024
 CoalCare India: Carbon Footprint Quantification for Indian Coal Mines <br>
 Project Overview <br>
 CoalCare India is a web-based application designed to quantify carbon emissions from coal mining activities and explore pathways towards carbon neutrality. The application provides activity-wise carbon emission estimates and helps suggest solutions like afforestation offsets, clean technologies, and alternative energy sources to achieve carbon neutrality. It aims to help Indian coal mines align with the country's climate goals by offering transparency and decision-making support for emission reductions. <br>
